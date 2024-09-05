@@ -1,0 +1,428 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\repository\\sitetccdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\repository\\sitetccdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\test v01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\test v01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\views\\documentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\documentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\repository\\models\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\repository\\models\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\repository\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\repository\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\controllers\\documentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\controllers\\documentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\views\\documentos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\documentos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\views\\documentos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\documentos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\views\\documentos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\documentos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\tcc\\test v01\\test v01\\repository\\models\\localizacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\repository\\models\\localizacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:33:52.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:33:15.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:32:09.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "test v01\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "test v01\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:28:05.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Program.cs",
+              "RelativeDocumentMoniker": "test v01\\Program.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Program.cs",
+              "RelativeToolTip": "test v01\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:03:43.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "test v01\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "test v01\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAgwJwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:03:43.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "test v01\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:03:43.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "test v01.csproj",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\test v01.csproj",
+              "RelativeDocumentMoniker": "test v01\\test v01.csproj",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\test v01.csproj",
+              "RelativeToolTip": "test v01\\test v01.csproj",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-05T17:03:43.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "test v01\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:03:43.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SITEtccDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Repository\\SITEtccDbContext.cs",
+              "RelativeDocumentMoniker": "test v01\\Repository\\SITEtccDbContext.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Repository\\SITEtccDbContext.cs",
+              "RelativeToolTip": "test v01\\Repository\\SITEtccDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwB4AAACbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:03:43.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\appsettings.json",
+              "RelativeDocumentMoniker": "test v01\\appsettings.json",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\appsettings.json",
+              "RelativeToolTip": "test v01\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-05T17:03:43.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "test v01\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "test v01\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:11:48.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Documentos\\Create.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Documentos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Documentos\\Create.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Documentos\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:03:43.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "test v01\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "test v01\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:03:43.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Documentos\\Index.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Documentos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Documentos\\Index.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Documentos\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:03:43.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Documento.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Repository\\Models\\Documento.cs",
+              "RelativeDocumentMoniker": "test v01\\Repository\\Models\\Documento.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Repository\\Models\\Documento.cs",
+              "RelativeToolTip": "test v01\\Repository\\Models\\Documento.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAkwBgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:03:43.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:03:43.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Localizacao.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Repository\\Models\\Localizacao.cs",
+              "RelativeDocumentMoniker": "test v01\\Repository\\Models\\Localizacao.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Repository\\Models\\Localizacao.cs",
+              "RelativeToolTip": "test v01\\Repository\\Models\\Localizacao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:03:43.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Usuarios\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Usuarios\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:03:43.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DocumentosController.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Controllers\\DocumentosController.cs",
+              "RelativeDocumentMoniker": "test v01\\Controllers\\DocumentosController.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Controllers\\DocumentosController.cs",
+              "RelativeToolTip": "test v01\\Controllers\\DocumentosController.cs",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAwwMMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:03:43.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Repository\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "test v01\\Repository\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Repository\\Models\\Usuario.cs",
+              "RelativeToolTip": "test v01\\Repository\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA2wC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:03:43.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Documentos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Documentos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Documentos\\Delete.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Documentos\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:03:43.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:03:43.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Documentos\\Details.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Documentos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\Views\\Documentos\\Details.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Documentos\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:03:43.236Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

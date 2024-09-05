@@ -1,0 +1,54 @@
+﻿@model IEnumerable<test_v01.Repository.Models.Documento>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    
+        <a asp-action="Create" class="btn btn-primary ">Create New</a>
+     <a asp-controller="usuarios" asp-action="index" class="btn btn-primary">usuarios</a>
+
+   
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Caminhodocumento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Documentonome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdusuarioNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Caminhodocumento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Documentonome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdusuarioNavigation.Idusuario)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Documentoid" class="btn btn-success">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Documentoid" class="btn btn-warning">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Documentoid" class="btn btn-danger">Delete</a> |
+                    <a asp-action="Download" asp-route-id="@item.Documentoid"class="btn btn-secondary">Download</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

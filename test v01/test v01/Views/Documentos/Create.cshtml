@@ -1,0 +1,37 @@
+﻿@model test_v01.Repository.Models.Documento
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Documento</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+    
+
+
+        <form asp-controller="Documentos" asp-action="Upload" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="file">Selecione o arquivo</label>
+                <input type="file" name="file" id="file" />
+            </div>
+            <br />
+            <div class="form-group" >
+                <label for="idusuario">ID do Usuário</label>
+                <input type="number" name="idusuario" id="idusuario" />
+            </div>
+            <input type="submit" value="Upload" />
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

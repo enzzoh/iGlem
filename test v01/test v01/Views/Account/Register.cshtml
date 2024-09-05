@@ -1,0 +1,34 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <link rel="stylesheet" href="~/css/acesso.css" />
+}
+
+    <div class="container">
+        
+        <div class="form-box sign-up-box" id="sign-up-box">
+            <div class="sign-up-header">
+                <header>Cadastro</header>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Nome" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="email" class="input-field" placeholder="Email" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="password" class="input-field" placeholder="Senha" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="password" class="input-field" placeholder="Confirme sua Senha" autocomplete="off" required>
+            </div>
+            <div class="input-submit">
+                <button class="submit-btn" id="submit-signup">Cadastrar</button>
+            </div>
+            <div class="login-link">
+            <p>Já tem uma conta? <a href="/Account/Login" onclick="showLogin()">Entrar</a></p>
+
+            </div>
+        </div>
+    </div>
