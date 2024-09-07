@@ -33,7 +33,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseSession();
-
+app.UseStatusCodePagesWithReExecute("/Home/AccessDenied");
 app.MapControllerRoute(
 	name: "default",
 	pattern: "{controller=Account}/{action=Login}/{id?}");

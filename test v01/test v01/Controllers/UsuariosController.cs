@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -11,30 +12,24 @@ using test_v01.Repository.Models;
 
 namespace test_v01.Controllers
 {
+    [Authorize]
     public class UsuariosController : Controller
     {
         private readonly SITEtccDbContext _context = new SITEtccDbContext();
         
 
      
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
          // GET: Usuarios
         public async Task<IActionResult> Index()
         {
-              return _context.Usuarios != null ? 
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
+
+           
+            return _context.Usuarios != null ? 
                           View(await _context.Usuarios.ToListAsync()) :
                           Problem("Entity set 'SITEtccDbContext.Usuarios'  is null.");
         }
@@ -42,6 +37,11 @@ namespace test_v01.Controllers
         // GET: Usuarios/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             if (id == null || _context.Usuarios == null)
             {
                 return NotFound();
@@ -59,7 +59,13 @@ namespace test_v01.Controllers
 
         // GET: Usuarios/Create
         public IActionResult Create()
+
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             return View();
         }
 
@@ -70,6 +76,11 @@ namespace test_v01.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Idusuario,Emailusuario,Senhausuario,Recmail,Nomeusuario,Telefoneusuario")] Usuario usuario)
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             if (ModelState.IsValid)
             {
                 _context.Add(usuario);
@@ -82,6 +93,11 @@ namespace test_v01.Controllers
         // GET: Usuarios/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             if (id == null || _context.Usuarios == null)
             {
                 return NotFound();
@@ -102,6 +118,11 @@ namespace test_v01.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Idusuario,Emailusuario,Senhausuario,Recmail,Nomeusuario,Telefoneusuario")] Usuario usuario)
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             if (id != usuario.Idusuario)
             {
                 return NotFound();
@@ -133,6 +154,11 @@ namespace test_v01.Controllers
         // GET: Usuarios/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             if (id == null || _context.Usuarios == null)
             {
                 return NotFound();
@@ -153,6 +179,11 @@ namespace test_v01.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             if (_context.Usuarios == null)
             {
                 return Problem("Entity set 'SITEtccDbContext.Usuarios'  is null.");

@@ -24,6 +24,11 @@ namespace test_v01.Controllers
        
         public async Task<IActionResult> Index()
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             var sITEtccDbContext = _context.Documentos.Include(d => d.IdusuarioNavigation);
             return View(await sITEtccDbContext.ToListAsync());
           
@@ -32,6 +37,11 @@ namespace test_v01.Controllers
         // GET: Documentos/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             if (id == null || _context.Documentos == null)
             {
                 return NotFound();
@@ -51,6 +61,11 @@ namespace test_v01.Controllers
         // GET: Documentos/Create
         public IActionResult Create()
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             ViewData["Idusuario"] = new SelectList(_context.Usuarios, "Idusuario", "Idusuario");
             return View();
         }
@@ -62,6 +77,11 @@ namespace test_v01.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Documentoid,Caminhodocumento,Documentonome,Idusuario,FileData")] Documento documento)
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             if (ModelState.IsValid)
             {
                 _context.Add(documento);
@@ -75,6 +95,11 @@ namespace test_v01.Controllers
         // GET: Documentos/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             if (id == null || _context.Documentos == null)
             {
                 return NotFound();
@@ -96,6 +121,11 @@ namespace test_v01.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Documentoid,Caminhodocumento,Documentonome,Idusuario,FileData")] Documento documento)
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             if (id != documento.Documentoid)
             {
                 return NotFound();
@@ -128,6 +158,11 @@ namespace test_v01.Controllers
         // GET: Documentos/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             if (id == null || _context.Documentos == null)
             {
                 return NotFound();
@@ -149,6 +184,11 @@ namespace test_v01.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            var isAdminClaim = User.FindFirst("IsAdmin");
+            if (isAdminClaim == null || !bool.Parse(isAdminClaim.Value))
+            {
+                return Forbid(); // Retorna um erro 403 - Acesso proibido
+            }
             if (_context.Documentos == null)
             {
                 return Problem("Entity set 'SITEtccDbContext.Documentos'  is null.");
@@ -171,6 +211,7 @@ namespace test_v01.Controllers
         [HttpPost]
         public async Task<IActionResult> Upload(IFormFile file, int? idusuario)
         {
+
             if (file == null || file.Length == 0)
             {
                 return BadRequest("Nenhum arquivo enviado.");

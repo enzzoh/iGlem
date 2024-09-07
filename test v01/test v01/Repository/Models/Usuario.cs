@@ -34,6 +34,8 @@ namespace test_v01.Repository.Models
         [Unicode(false)]
         public string? Nomeusuario { get; set; }
 
+        public bool IsAdmin { get; set; } = false;
+
         [Column("telefoneusuario")]
         [StringLength(15)]
         [Unicode(false)]
