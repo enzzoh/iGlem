@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\listadocumentos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\listadocumentos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\documentos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\documentos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\documentos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\documentos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\controllers\\listadocumentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\controllers\\listadocumentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\listadocumentos\\homelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\listadocumentos\\homelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\controllers\\documentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\controllers\\documentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\documentos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\documentos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\documentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\documentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,28 +63,8 @@
       "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\listadocumentos\\homelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\listadocumentos\\homelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\controllers\\documentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\controllers\\documentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\controllers\\listadocumentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\controllers\\listadocumentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\repository\\models\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,32 +83,12 @@
       "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\repository\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\repository\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\documentos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\documentos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -93,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\test v01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\test v01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\documentos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\documentos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -117,10 +125,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\documentos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\documentos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|c:\\users\\piteu\\onedrive\\documentos\\github\\iglem\\test v01\\test v01\\views\\documentos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E1D295A-5EBC-41AF-A4B7-7002D973ACDE}|test v01\\test v01.csproj|solutionrelative:test v01\\views\\documentos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,56 +134,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Documento.cs",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Repository\\Models\\Documento.cs",
-              "RelativeDocumentMoniker": "test v01\\Repository\\Models\\Documento.cs",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Repository\\Models\\Documento.cs",
-              "RelativeToolTip": "test v01\\Repository\\Models\\Documento.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T17:03:43.208Z",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Listadocumentos\\Create.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Listadocumentos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Listadocumentos\\Create.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Listadocumentos\\Create.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswBgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T22:55:18.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ListaDocumentosController.cs",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\ListaDocumentosController.cs",
-              "RelativeDocumentMoniker": "test v01\\Controllers\\ListaDocumentosController.cs",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\ListaDocumentosController.cs",
-              "RelativeToolTip": "test v01\\Controllers\\ListaDocumentosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "test v01\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "test v01\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T14:55:53.108Z",
+              "WhenOpened": "2024-09-05T17:03:43.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "test v01\\Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "test v01\\Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAcwEQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T17:03:43.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "HomeList.cshtml",
               "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Listadocumentos\\HomeList.cshtml",
               "RelativeDocumentMoniker": "test v01\\Views\\Listadocumentos\\HomeList.cshtml",
               "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Listadocumentos\\HomeList.cshtml",
               "RelativeToolTip": "test v01\\Views\\Listadocumentos\\HomeList.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-07T14:56:28.561Z",
               "EditorCaption": ""
@@ -187,45 +178,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Usuarios\\Create.cshtml",
-              "RelativeDocumentMoniker": "test v01\\Views\\Usuarios\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Usuarios\\Create.cshtml",
-              "RelativeToolTip": "test v01\\Views\\Usuarios\\Create.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAcwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T17:03:43.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Index.cshtml",
-              "RelativeDocumentMoniker": "test v01\\Views\\Documentos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Index.cshtml",
-              "RelativeToolTip": "test v01\\Views\\Documentos\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T17:03:43.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Localizacao.cs",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Repository\\Models\\Localizacao.cs",
-              "RelativeDocumentMoniker": "test v01\\Repository\\Models\\Localizacao.cs",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Repository\\Models\\Localizacao.cs",
-              "RelativeToolTip": "test v01\\Repository\\Models\\Localizacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ListaDocumentosController.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\ListaDocumentosController.cs",
+              "RelativeDocumentMoniker": "test v01\\Controllers\\ListaDocumentosController.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\ListaDocumentosController.cs",
+              "RelativeToolTip": "test v01\\Controllers\\ListaDocumentosController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAADwv0UAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T17:03:43.214Z",
+              "WhenOpened": "2024-09-07T14:55:53.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:33:15.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Documentos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Delete.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Documentos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:03:43.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Create.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Documentos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Create.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Documentos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:03:43.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DocumentosController.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\DocumentosController.cs",
+              "RelativeDocumentMoniker": "test v01\\Controllers\\DocumentosController.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\DocumentosController.cs",
+              "RelativeToolTip": "test v01\\Controllers\\DocumentosController.cs",
+              "ViewState": "AgIAANkAAAAAAAAAAAAUwP8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:03:43.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "test v01\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "test v01\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAcwHUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:03:43.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Documentos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Edit.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Documentos\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T00:28:46.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "test v01\\Controllers\\AccountController.cs",
@@ -238,41 +281,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DocumentosController.cs",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\DocumentosController.cs",
-              "RelativeDocumentMoniker": "test v01\\Controllers\\DocumentosController.cs",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\DocumentosController.cs",
-              "RelativeToolTip": "test v01\\Controllers\\DocumentosController.cs",
-              "ViewState": "AgIAAOQAAAAAAAAAAAAkwNUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T17:03:43.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PalavraChave.cs",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Repository\\Models\\PalavraChave.cs",
-              "RelativeDocumentMoniker": "test v01\\Repository\\Models\\PalavraChave.cs",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Repository\\Models\\PalavraChave.cs",
-              "RelativeToolTip": "test v01\\Repository\\Models\\PalavraChave.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T23:50:40.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "test v01\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "test v01\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAuwMkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T17:03:43.083Z",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBQAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:33:52.453Z",
               "EditorCaption": ""
             },
             {
@@ -283,14 +300,87 @@
               "RelativeDocumentMoniker": "test v01\\appsettings.json",
               "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\appsettings.json",
               "RelativeToolTip": "test v01\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-05T17:03:43.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
+              "Title": "PalavraChave.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Repository\\Models\\PalavraChave.cs",
+              "RelativeDocumentMoniker": "test v01\\Repository\\Models\\PalavraChave.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Repository\\Models\\PalavraChave.cs",
+              "RelativeToolTip": "test v01\\Repository\\Models\\PalavraChave.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T23:50:40.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Localizacao.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Repository\\Models\\Localizacao.cs",
+              "RelativeDocumentMoniker": "test v01\\Repository\\Models\\Localizacao.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Repository\\Models\\Localizacao.cs",
+              "RelativeToolTip": "test v01\\Repository\\Models\\Localizacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:03:43.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Index.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Documentos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Index.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Documentos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:03:43.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:03:43.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "test v01\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "test v01\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwEQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T17:03:43.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Documento.cs",
+              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Repository\\Models\\Documento.cs",
+              "RelativeDocumentMoniker": "test v01\\Repository\\Models\\Documento.cs",
+              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Repository\\Models\\Documento.cs",
+              "RelativeToolTip": "test v01\\Repository\\Models\\Documento.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:03:43.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Program.cs",
               "RelativeDocumentMoniker": "test v01\\Program.cs",
@@ -298,25 +388,11 @@
               "RelativeToolTip": "test v01\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T17:03:43.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T17:03:43.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "test v01\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "test v01\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T17:03:43.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Repository\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "test v01\\Repository\\Models\\Usuario.cs",
@@ -324,12 +400,11 @@
               "RelativeToolTip": "test v01\\Repository\\Models\\Usuario.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T17:03:43.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T17:03:43.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Usuarios\\Edit.cshtml",
               "RelativeDocumentMoniker": "test v01\\Views\\Usuarios\\Edit.cshtml",
@@ -337,12 +412,11 @@
               "RelativeToolTip": "test v01\\Views\\Usuarios\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T17:03:43.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T17:03:43.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Usuarios\\Delete.cshtml",
               "RelativeDocumentMoniker": "test v01\\Views\\Usuarios\\Delete.cshtml",
@@ -354,31 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "test v01\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "test v01\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T17:33:15.473Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "test v01\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "test v01\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBQAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T17:33:52.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "test v01\\Views\\_ViewStart.cshtml",
@@ -390,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Usuarios\\Details.cshtml",
               "RelativeDocumentMoniker": "test v01\\Views\\Usuarios\\Details.cshtml",
@@ -402,19 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "test v01\\Views\\Documentos\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Edit.cshtml",
-              "RelativeToolTip": "test v01\\Views\\Documentos\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-07T00:28:46.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "test v01.csproj",
               "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\test v01.csproj",
               "RelativeDocumentMoniker": "test v01\\test v01.csproj",
@@ -426,19 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Create.cshtml",
-              "RelativeDocumentMoniker": "test v01\\Views\\Documentos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Create.cshtml",
-              "RelativeToolTip": "test v01\\Views\\Documentos\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T17:03:43.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "test v01\\Views\\Shared\\_Layout.cshtml",
@@ -450,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "test v01\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -462,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "SITEtccDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Repository\\SITEtccDbContext.cs",
               "RelativeDocumentMoniker": "test v01\\Repository\\SITEtccDbContext.cs",
@@ -474,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "test v01\\Models\\ErrorViewModel.cs",
@@ -486,19 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "test v01\\Views\\Documentos\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Delete.cshtml",
-              "RelativeToolTip": "test v01\\Views\\Documentos\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T17:03:43.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\Views\\Documentos\\Details.cshtml",
               "RelativeDocumentMoniker": "test v01\\Views\\Documentos\\Details.cshtml",
