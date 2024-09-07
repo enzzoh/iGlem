@@ -12,7 +12,8 @@ using test_v01.Repository.Models;
 
 namespace test_v01.Controllers
 {
-    public class DocumentosController : Controller
+	[Authorize]
+	public class DocumentosController : Controller
     {
         private readonly SITEtccDbContext _context = new SITEtccDbContext();
 

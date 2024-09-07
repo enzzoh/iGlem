@@ -1,39 +1,41 @@
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using test_v01.Repository;
-using test_v01.Repository.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Adicione o serviço do contexto do banco de dados
-builder.Services.AddDbContext<SITEtccDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Adicionando sessão
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+	options.IdleTimeout = TimeSpan.FromMinutes(30);
+	options.Cookie.HttpOnly = true;
+	options.Cookie.IsEssential = true;
+});
 
-// Configurar o Identit
+// Configurar autenticação com cookies
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+	.AddCookie(options =>
+	{
+		options.LoginPath = "/Account/Login"; // Caminho da página de login
+		options.AccessDeniedPath = "/Account/AccessDenied"; // Caminho para quando o acesso é negado
+	});
 
-// Adicione serviços MVC
 builder.Services.AddControllersWithViews();
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-// Configure o pipeline de requisições HTTP
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    app.UseHsts();
-}
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
 
+// Adicionar middleware de autenticação e autorização
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Documentos}/{action=Index}/{id?}");
+app.UseSession();
 
+app.MapControllerRoute(
+	name: "default",
+	pattern: "{controller=Account}/{action=Login}/{id?}");
 
 app.Run();

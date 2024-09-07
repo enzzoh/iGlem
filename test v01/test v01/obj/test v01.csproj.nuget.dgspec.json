@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\test v01.csproj": {}
+    "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\test v01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\test v01.csproj": {
+    "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\test v01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\test v01.csproj",
+        "projectUniqueName": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\test v01.csproj",
         "projectName": "test v01",
-        "projectPath": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\test v01.csproj",
+        "projectPath": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\test v01.csproj",
         "packagesPath": "C:\\Users\\Piteu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\obj\\",
+        "outputPath": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Piteu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.33, )"
@@ -57,6 +61,10 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[6.0.33, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

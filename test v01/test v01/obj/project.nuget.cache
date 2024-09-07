@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WMLdLNL9Qy8=",
+  "dgSpecHash": "die2vxJRktY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\TCC\\test v01\\test v01\\test v01.csproj",
+  "projectFilePath": "C:\\Users\\Piteu\\OneDrive\\Documentos\\GitHub\\iGlem\\test v01\\test v01\\test v01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Piteu\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Piteu\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -76,6 +76,7 @@
     "C:\\Users\\Piteu\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.33\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.33.nupkg.sha512",
     "C:\\Users\\Piteu\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.33\\microsoft.aspnetcore.identity.ui.6.0.33.nupkg.sha512",
     "C:\\Users\\Piteu\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
+    "C:\\Users\\Piteu\\.nuget\\packages\\microsoft.aspnetcore.session\\2.2.0\\microsoft.aspnetcore.session.2.2.0.nupkg.sha512",
     "C:\\Users\\Piteu\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\Piteu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\Piteu\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.2\\microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512",
