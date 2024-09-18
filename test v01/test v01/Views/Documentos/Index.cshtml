@@ -7,11 +7,8 @@
 <h1>Index</h1>
 
 <p>
-    
-        <a asp-action="Create" class="btn btn-primary ">Create New</a>
-     <a asp-controller="usuarios" asp-action="index" class="btn btn-primary">usuarios</a>
-
-   
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+    <a asp-controller="usuarios" asp-action="index" class="btn btn-primary">Usuarios</a>
 </p>
 
 <table class="table">
@@ -46,12 +43,20 @@
                     <a asp-action="Edit" asp-route-id="@item.Documentoid" class="btn btn-success">Edit</a> |
                     <a asp-action="Details" asp-route-id="@item.Documentoid" class="btn btn-warning">Details</a> |
                     <a asp-action="Delete" asp-route-id="@item.Documentoid" class="btn btn-danger">Delete</a> |
-                    <a asp-action="Download" asp-route-id="@item.Documentoid"class="btn btn-secondary">Download</a>
+                    <a asp-action="Download" asp-route-id="@item.Documentoid" class="btn btn-secondary">Download</a>
+
+                    <!-- Formulário para enviar o documento ao ChatGPT -->
+                    <form asp-action="SendDocumentToChatGpt" method="post" class="d-inline">
+                        <input type="hidden" name="id" value="@item.Documentoid" />
+                        <button type="submit" class="btn btn-info">Enviar para ChatGPT</button>
+                    </form>
+
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
 <form asp-controller="Account" asp-action="Logout" method="post">
     <button type="submit" class="btn btn-link">Logout</button>
 </form>

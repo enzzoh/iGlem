@@ -1,0 +1,27 @@
+﻿@model test_v01.Repository.Models.Documento
+
+@{
+    ViewData["Title"] = "Editar Documento";
+}
+
+<h1>Editar Documento</h1>
+
+<form asp-action="Edit">
+    <div class="form-group">
+        <label asp-for="Documentonome" class="control-label"></label>
+        <input asp-for="Documentonome" class="form-control" />
+        <span asp-validation-for="Documentonome" class="text-danger"></span>
+    </div>
+    <input type="hidden" asp-for="Documentoid" />
+    <input type="hidden" asp-for="Idusuario" />
+    <div class="form-group">
+        <input type="submit" value="Salvar" class="btn btn-primary" />
+        <a asp-action="HomeList" class="btn btn-secondary">Cancelar</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

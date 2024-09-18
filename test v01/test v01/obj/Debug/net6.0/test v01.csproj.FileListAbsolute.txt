@@ -1196,3 +1196,6 @@ C:\Users\Piteu\OneDrive\Documentos\GitHub\iGlem\test v01\test v01\obj\Debug\net6
 C:\Users\Piteu\OneDrive\Documentos\GitHub\iGlem\test v01\test v01\obj\Debug\net6.0\test v01.pdb
 C:\Users\Piteu\OneDrive\Documentos\GitHub\iGlem\test v01\test v01\obj\Debug\net6.0\test v01.genruntimeconfig.cache
 C:\Users\Piteu\OneDrive\Documentos\GitHub\iGlem\test v01\test v01\obj\Debug\net6.0\ref\test v01.dll
+C:\Users\Piteu\OneDrive\Documentos\GitHub\iGlem\test v01\test v01\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\Piteu\OneDrive\Documentos\GitHub\iGlem\test v01\test v01\bin\Debug\net6.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Piteu\OneDrive\Documentos\GitHub\iGlem\test v01\test v01\bin\Debug\net6.0\System.IO.Packaging.dll

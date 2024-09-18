@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using test_v01.Models;
 using test_v01.Repository;
 using test_v01.Repository.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace test_v01.Controllers
 {
@@ -57,7 +58,7 @@ namespace test_v01.Controllers
 
             // Converte o valor da claim para int
             int userId = int.Parse(userIdClaim.Value);
-
+            
             if (file == null || file.Length == 0)
             {
                 return BadRequest("Nenhum arquivo enviado.");
@@ -94,11 +95,112 @@ namespace test_v01.Controllers
             return File(documento.FileData, "application/octet-stream", documento.Caminhodocumento);
         }
 
+        private bool DocumentoExists(int id)
+        {
+            return (_context.Documentos?.Any(e => e.Documentoid == id)).GetValueOrDefault();
+        }
 
 
 
 
+        public async Task<IActionResult> Edit(int? id)
+        {
+            // Verifica se o usuário está autenticado e obtém o ID do usuário
+            var userIdClaim = User.FindFirst("Idusuario");
+            if (userIdClaim == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
 
+            int userId = int.Parse(userIdClaim.Value);
+
+            if (id == null || _context.Documentos == null)
+            {
+                return NotFound();
+            }
+
+            // Encontra o documento pelo ID e verifica se o documento pertence ao usuário
+            var documento = await _context.Documentos
+                .FirstOrDefaultAsync(d => d.Documentoid == id && d.Idusuario == userId);
+
+            if (documento == null)
+            {
+                return NotFound();
+            }
+
+            return View(documento);
+        }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            // Verifica se o usuário está autenticado e obtém o ID do usuário
+            var userIdClaim = User.FindFirst("Idusuario");
+            if (userIdClaim == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            int userId = int.Parse(userIdClaim.Value);
+
+            // Encontra o documento pelo ID e verifica se o documento pertence ao usuário
+            var documento = await _context.Documentos
+                .FirstOrDefaultAsync(d => d.Documentoid == id && d.Idusuario == userId);
+
+            if (documento == null)
+            {
+                return NotFound();
+            }
+
+            return View(documento);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("Documentoid, Caminhodocumento, Documentonome, Idusuario, FileData")] Documento documento)
+        {
+            if (id != documento.Documentoid)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(documento);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!DocumentoExists(documento.Documentoid))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(HomeList));
+            }
+            return View(documento);
+        }
+
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var documento = await _context.Documentos.FindAsync(id);
+            if (documento == null)
+            {
+                return NotFound();
+            }
+
+            _context.Documentos.Remove(documento);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(HomeList));
+        }
 
 
 
