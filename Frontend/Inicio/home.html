@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+    <div class="search-container">
+        <input type="text" class="form-control search-box" placeholder="Buscar...">
+        <button class="search-button">
+            <i class="bi bi-search"></i>
+        </button>
+    </div>
+
+    <div class="buttons">
+        <button class="button" data-toggle="modal" data-target="#favoritesModal">
+            <i class="bi bi-star"></i>
+            <span class="button-text">Favoritos</span>
+        </button>
+        <button class="button" data-toggle="modal" data-target="#addModal">
+            <i class="bi bi-plus"></i>
+            <span class="button-text">Adicionar</span>
+        </button>
+        <button class="button" data-toggle="modal" data-target="#recentModal">
+            <i class="bi bi-clock"></i>
+            <span class="button-text">Recentes</span>
+        </button>
+    </div>
+
+    <!-- Modal para Favoritos -->
+    <div class="modal fade" id="favoritesModal" tabindex="-1" role="dialog" aria-labelledby="favoritesModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="favoritesModalLabel">Favoritos</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Favorito 1</p>
+                    <p>Favorito 2</p>
+                    <p>Favorito 3</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Adicionar -->
+    <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addModalLabel">Adicionar Item</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Insira as informações do novo item:</p>
+                    <input type="text" class="form-control" placeholder="Nome do item">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Adicionar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Recentes -->
+    <div class="modal fade" id="recentModal" tabindex="-1" role="dialog" aria-labelledby="recentModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="recentModalLabel">Itens Recentes</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Item Recente 1</p>
+                    <p>Item Recente 2</p>
+                    <p>Item Recente 3</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

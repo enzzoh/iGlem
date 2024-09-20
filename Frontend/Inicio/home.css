@@ -1,0 +1,110 @@
+body {
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1557682250-33bd709cbe85?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.search-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    width: 300px;
+    border-radius: 20px;
+    outline: none;
+    border: none; 
+}
+
+.search-button {
+    background-color: #c4c4c4; 
+    color: rgb(0, 0, 0); 
+    border: none; 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-left: 10px;
+    transition: background-color 0.3s ease; 
+}
+
+.search-button:hover {
+    background-color: #737679; 
+}
+
+.search-button:focus {
+    outline: none; 
+    box-shadow: none; 
+}
+
+.buttons {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-1%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    width: 40px; 
+    height: 40px;
+    border-radius: 20px; 
+    background-color: #c4c4c4;
+    color: rgb(0, 0, 0);
+    border: none;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    position: relative;
+    transition: all 0.3s ease;
+    overflow: hidden; 
+    display: flex; 
+    align-items: center; 
+    padding-left: 10px; 
+}
+
+.button:hover {
+    width: 150px; 
+    background-color: #737679; 
+}
+
+.button .button-text {
+    display: none; 
+    color: white;
+    white-space: nowrap;
+    font-size: 14px; 
+    margin-left: 10px; 
+}
+
+.button:hover .button-text {
+    display: block; 
+}
+
+.button:hover i {
+    margin-right: 5px; 
+}
+
+.button:focus {
+    outline: none; 
+    box-shadow: none; 
+}

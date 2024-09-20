@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Perfil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .perfil {
+            display: flex;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 30px;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .foto-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 20px;
+        }
+        .foto {
+            border: 3px solid #ccc;
+            width: 120px;
+            height: 120px;
+            background: #e0e0e0;
+            margin-bottom: 10px; /* Espaço entre as fotos */
+        }
+        .info {
+            display: flex;
+            flex-direction: column;
+        }
+        .dados {
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            width: 250px;
+            margin-bottom: 10px;
+        }
+        .item {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .admin {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            width: 160px;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="perfil">
+        <div class="foto-container">
+            <div class="foto"></div>
+            <div class="admin">Admin</div>
+        </div>
+        <div class="info">
+            <div class="dados">
+                <div class="item"><h2>Nome</h2></div>
+                <div class="item"><p>Email: usuario@example.com</p></div>
+                <div class="item"><p>Senha: ********</p></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
