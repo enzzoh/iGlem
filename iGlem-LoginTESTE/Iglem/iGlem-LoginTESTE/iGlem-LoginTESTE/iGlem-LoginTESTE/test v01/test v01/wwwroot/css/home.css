@@ -1,0 +1,92 @@
+﻿/* home.css */
+
+/* Estilo para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Fundo leve */
+    color: #343a40; /* Texto escuro */
+}
+
+/* Estilo dos botões */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    background-color: #007bff; /* Azul do Bootstrap */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .button:hover {
+        background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+    }
+
+.button-text {
+    margin-left: 5px;
+}
+
+/* Estilo da caixa de pesquisa */
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    flex: 1;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ced4da;
+}
+
+.search-button {
+    background-color: #007bff; /* Azul do Bootstrap */
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Estilo da tabela */
+.table {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+    .table th, .table td {
+        padding: 15px;
+        text-align: left;
+    }
+
+    .table th {
+        background-color: #007bff; /* Azul do Bootstrap */
+        color: white;
+    }
+
+    .table tbody tr:hover {
+        background-color: #f1f1f1; /* Efeito hover para as linhas */
+    }
+
+/* Estilo dos modais */
+.modal-header {
+    background-color: #007bff; /* Azul do Bootstrap */
+    color: white;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+    .modal-footer .btn {
+        margin-left: 10px;
+    }

@@ -1,0 +1,470 @@
+﻿@model IEnumerable<test_v01.Repository.Models.Documento>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="~/front/homelist.css/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            display: none;
+        }
+
+        .sidebar {
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            background-color: #667C4D;
+            padding-top: 20px;
+        }
+
+            .sidebar a {
+                padding: 15px;
+                text-decoration: none;
+                font-size: 18px;
+                color: #fff;
+                display: block;
+                margin-bottom: 10px;
+            }
+
+                .sidebar a:hover {
+                    background-color: #ddd;
+                }
+
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            display: flex;
+            width: 100%;
+        }
+
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+
+        .search-container {
+            position: relative;
+            flex-grow: 1;
+            margin-right: 20px;
+            width: 48rem !important;
+        }
+
+            .search-container input {
+                padding-left: 40px;
+                width: 60rem;
+            }
+
+            .search-container .search-icon, .search-container .clear-icon {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 18px;
+                color: #6c757d;
+                cursor: pointer;
+            }
+
+            .search-container .search-icon {
+                left: 10px;
+            }
+
+            .search-container .clear-icon {
+                right: 10px;
+            }
+
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .file-list {
+            margin-top: 20px;
+        }
+
+       
+        .card {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px; 
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+          
+            .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+            }
+
+      
+        .card-body {
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+     
+        .card-title {
+            font-size: 1.25rem; 
+            font-weight: 600; 
+            color: #333;
+            margin-bottom: 10px; 
+        }
+
+        
+        .card-text {
+            font-size: 1rem;
+            color: #555; 
+            margin-bottom: 15px;
+        }
+
+       
+        .card .btn {
+            font-size: 0.875rem; 
+            padding: 8px 12px; 
+            border-radius: 5px; 
+        }
+
+       
+        .card .btn-success {
+            background-color: #28a745;
+            border-color: #28a745;
+        }
+
+            .card .btn-success:hover {
+                background-color: #218838;
+                border-color: #1e7e34;
+            }
+
+        
+        .card .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+        }
+
+            .card .btn-secondary:hover {
+                background-color: #5a6268;
+                border-color: #545b62;
+            }
+
+       
+        .card .btn-danger {
+            background-color: #dc3545;
+            border-color: #dc3545;
+        }
+
+            .card .btn-danger:hover {
+                background-color: #c82333;
+                border-color: #bd2130;
+            }
+
+       
+        .card-body > div {
+            display: flex;
+            justify-content: space-between;
+        }
+
+       
+        .card-body > div, .card-body .card-title, .card-body .card-text {
+            margin-bottom: 15px;
+        }
+
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 15px;
+        }
+
+        
+        .col-md-4 {
+            flex: 1 1 30%; 
+            max-width: 30%;
+            padding: 0; 
+        }
+        
+        .sidebar {
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div class="sidebar">
+        <h3 class="text-center">iGlem</h3>
+        <a href="/Listadocumentos/HomeList">Início</a>
+       
+        <a href="/Home/Usuario">Perfil</a>
+        <a href="/Home/Suporte">Suporte</a>
+
+    </div>
+
+    <div>
+        <header>
+            <div class="header-container">
+                @{
+                    var currentSearchTerm = ViewData["SearchTerm"] as string;
+                    var currentSearchType = ViewData["SearchType"] as string ?? "name";
+                }
+
+                <div class="search-container">
+                    <form method="get" action="@Url.Action("HomeList", "ListaDocumentos")" class="d-flex">
+
+                        <i class="fas fa-search search-icon" onclick="ativarBotaoPesquisar()"></i>
+                        <input type="text" class="form-control" placeholder="Pesquisar..." name="searchTerm" value="@currentSearchTerm">
+                        <i class="fas fa-times clear-icon" onclick="ativarLink()" style="margin-right: 21pc;"></i>
+
+                        <button type="submit" class="btn btn-primary" style="width:50%; display:none;" id="BotaoPesquisar" onclick="performSearch()">Pesquisar</button>
+
+                        <a href="@Url.Action("HomeList", "ListaDocumentos")" class="btn btn-secondary" style="display:none;" id="limparPesquisa">Limpar Pesquisa</a>
+
+                        <!-- Botão de alternância -->
+                        @Html.DropDownList("searchType", new List<SelectListItem>
+                        {
+                        new SelectListItem { Text = "Pesquisar por Nome", Value = "name", Selected = (currentSearchType == "name") },
+                        new SelectListItem { Text = "Pesquisar por Conteúdo", Value = "content", Selected = (currentSearchType == "content") }
+                        }, new { @class = "form-control" })
+                    </form>
+                </div>
+
+                
+                <div class="button-group">
+                    <button class="upload-btn btn btn-primary" data-toggle="modal" data-target="#createDocumentModal">Upload</button>
+                    <a asp-controller="Recentes" asp-action="Index" class="recent-btn btn btn-info">Recentes</a>
+
+                </div>
+            </div>
+        </header>
+
+        <div class="Card-Container">
+            <div class="row mt-4">
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="default.png" alt="Descrição da Imagem" class="img-fluid documento-img" data-documento="@item.Documentonome" style="max-width: 50px; max-height:50px;">
+                                <a asp-action="ToggleFavorite" asp-route-id="@item.Documentoid" class="btn btn-warning" style="border: none; background: none;">
+                                    @if (item.IsFavorite)
+                                    {
+                                        <i class="fas fa-star"></i> <!-- Ícone de estrela cheia -->
+                                    }
+                                    else
+                                    {
+                                        <i class="fas fa-star-half-alt"></i> <!-- Ícone de estrela meia -->
+                                    }
+                                </a>
+                                <h5 class="card-title">@Html.DisplayFor(modelItem => item.Documentonome)</h5>
+                                <!-- Ícone de Favorito com link para alternar o estado -->
+                                
+                                <div style="display: flex; justify-content: space-between;">
+                                    <a asp-action="Edit" asp-route-id="@item.Documentoid" class="btn btn-success">Edit</a>
+                                    <a asp-action="Download" asp-route-id="@item.Documentoid" class="btn btn-secondary">Download</a>
+                                    <a asp-action="Delete" asp-route-id="@item.Documentoid" class="btn btn-danger">Delete/Details</a>
+
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="modal fade" id="createDocumentModal" tabindex="-1" role="dialog" aria-labelledby="createDocumentModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="createDocumentModalLabel">Criar Novo Documento</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form asp-action="Upload" enctype="multipart/form-data" method="post">
+                            <div class="form-group">
+                                <label for="file">Escolher Documento</label>
+                                <input type="file" name="file" class="form-control" />
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="bi bi-upload"></i> Enviar
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="favoritesModal" tabindex="-1" role="dialog" aria-labelledby="favoritesModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="favoritesModalLabel">Favoritos</h5>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="recentModal" tabindex="-1" role="dialog" aria-labelledby="recentModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="recentModalLabel">Itens Recentes</h5>
+                    </div>
+                    <div class="modal-body">
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <script>
+
+
+            function toggleFavorite(documentId) {
+                $.ajax({
+                    url: '/Home/ToggleFavorite/' + documentId, // URL da ação ToggleFavorite
+                    type: 'POST', // Tipo de requisição
+                    success: function (result) {
+                        // Atualiza o ícone após a ação
+                        var starIcon = $("a[onclick='toggleFavorite(" + documentId + ")'] i");
+                        if (starIcon.hasClass('fa-star')) {
+                            starIcon.removeClass('fa-star').addClass('fa-star-half-alt');
+                        } else {
+                            starIcon.removeClass('fa-star-half-alt').addClass('fa-star');
+                        }
+                    },
+                    error: function () {
+                        alert("Ocorreu um erro ao marcar como favorito.");
+                    }
+                });
+            }
+           
+                $(document).ready(function () {
+        // Verifica se há documentos recentes
+        if (@(ViewBag.DocumentosRecentes?.Count ?? 0) > 0) {
+            $('#recentModal').modal('show');
+        }
+    });
+
+
+            function ativarLink() {
+                const link = document.getElementById('limparPesquisa');
+                link.click(); // Clique no link para limpar a pesquisa
+            }
+
+            function ativarBotaoPesquisar() {
+                console.log("click"); // Para debugar o clique
+                const form = document.querySelector("form");
+                form.submit(); // Submete o formulário diretamente
+            }
+
+
+            // Função para alterar a imagem do documento com base na extensão
+            function mudarImagemPorExtensao() {
+                var imagensDocumento = document.querySelectorAll('.documento-img');
+
+                imagensDocumento.forEach(function (imagem) {
+                    var nomeDocumento = imagem.getAttribute('data-documento');
+
+                    if (nomeDocumento.trim() === "") {
+                        return;
+                    }
+
+                    var extensao = nomeDocumento.split('.').pop().toLowerCase();
+
+                    switch (extensao) {
+                        case 'docx':
+                        case 'doc':
+                            imagem.src = 'https://cdn0.iconfinder.com/data/icons/logos-microsoft-office-365/128/Microsoft_Office_Mesa_de_trabajo_1-1024.png';
+                            break;
+                        case 'xlsx':
+                        case 'xls':
+                            imagem.src = 'https://logodownload.org/wp-content/uploads/2020/04/excel-logo-1.png';
+                            break;
+                        case 'pdf':
+                            imagem.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1667px-PDF_file_icon.svg.png';
+                            break;
+                        case 'txt':
+                            imagem.src = 'https://cdn-icons-png.flaticon.com/512/2656/2656402.png';
+                            break;
+                        case 'pptx':
+                            imagem.src = 'https://iconape.com/wp-content/files/tp/369241/svg/powerpoint-logo-icon-png-svg.png';
+                            break;
+                        default:
+                            imagem.src = '';
+                            break;
+                    }
+
+                });
+            }
+
+            // Chama a função ao carregar a página
+            window.onload = mudarImagemPorExtensao;
+
+            // Atualiza a imagem a cada 500ms
+            setInterval(mudarImagemPorExtensao, 500);
+
+            // Aqui você pega o valor alterado de searchTerm
+            const searchTermAlterado = "novoTermo";
+            const searchType = "name"; // ou 'content'
+
+            // Requisição para alterar o searchTerm
+            fetch(`/Home/HomeList?searchTerm=${searchTermAlterado}&searchType=${searchType}`, {
+                method: 'GET'
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data); // Manipule os dados aqui
+                })
+                .catch(error => console.error('Erro:', error));
+
+        </script>
+
+</body>
+</html>

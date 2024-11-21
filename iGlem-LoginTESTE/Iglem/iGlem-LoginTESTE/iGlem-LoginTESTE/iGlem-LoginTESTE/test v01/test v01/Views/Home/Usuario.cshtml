@@ -1,0 +1,138 @@
+﻿@model IEnumerable<test_v01.Repository.Models.Usuario>
+@{
+    ViewData["Title"] = "Página de Usuario";
+
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/front/usuario.css" >
+</head>
+
+<style>
+
+    .navbar {
+        display: none;
+    }
+
+    .sidebar {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        background-color: #667C4D;
+        padding-top: 20px;
+    }
+
+        .sidebar a {
+            padding: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+            .sidebar a:hover {
+                background-color: #ddd;
+            }
+
+    .content {
+        margin-left: 250px;
+        padding: 20px;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+
+    .search-container {
+        position: relative;
+        flex-grow: 1;
+        margin-right: 20px;
+    }
+
+        .search-container input {
+            padding-left: 40px;
+            width: 100%;
+        }
+
+        .search-container .search-icon, .search-container .clear-icon {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 18px;
+            color: #6c757d;
+            cursor: pointer;
+        }
+
+        .search-container .search-icon {
+            left: 10px;
+        }
+
+        .search-container .clear-icon {
+            right: 10px;
+        }
+
+    .sidebar {
+        color: #fff;
+    }
+
+    .button-group {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .file-list {
+        margin-top: 20px;
+    }
+</style>
+<body style="background-color:none;">
+
+    <div class="sidebar">
+        <h3 class="text-center">iGlem</h3>
+        <a href="/Listadocumentos/HomeList">Início</a>
+        <a href="/Home/Notificacoes">Notificações</a>
+        <a href="/Home/Usuario">Perfil</a>
+        <a href="/Home/Suporte">Suporte</a>
+
+    </div>
+
+    <div class="container">
+        <div class="user-info">
+            @foreach (var item in Model)
+            {
+                <div class="info-group">
+                    <strong>
+                        @(item.IsAdmin ? "Administrador:" : "Visitante:")
+
+                    </strong>
+                    <p>@item.Nomeusuario</p>
+                </div>
+
+                <div class="info-group">
+                    <strong>Email:</strong>
+                    <p>@item.Emailusuario</p>
+                </div>
+                <div class="info-group">
+                    <strong>Senha:</strong>
+                    <p>********</p>
+                </div>
+            }
+        </div>
+        <form asp-controller="Account" asp-action="Logout" method="post">
+            <button type="submit" class="btn-logout">Logout</button>
+        </form>
+    </div>
+</body>
+</html>

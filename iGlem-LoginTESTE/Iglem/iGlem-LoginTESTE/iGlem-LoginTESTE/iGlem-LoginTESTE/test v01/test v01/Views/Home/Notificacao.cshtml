@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <div class="navbar">
+        <div class="notification">
+            <button id="notifButton" onclick="toggleDropdown()">
+                <i class="fa fa-bell"></i>
+                <span id="notifCount">@Model.Notifications.Count()</span> 
+            </button>
+            <div id="notifDropdown" class="dropdown-content">
+                @foreach (var notification in Model.Notifications)
+                {
+                    <div class="notification-item">
+                        @notification.Message 
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}

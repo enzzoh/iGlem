@@ -1,0 +1,240 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+}
+
+
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background-color: #343a40;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+    .sidebar .sidebar-header {
+        padding: 20px;
+        background-color: #23272b;
+        color: white;
+        text-align: center;
+    }
+
+        .sidebar .sidebar-header h3 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+    .sidebar .nav {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .sidebar .nav-item {
+        width: 100%;
+    }
+
+    .sidebar .nav-link {
+        display: flex;
+        align-items: center;
+        padding: 12px 20px;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        margin-bottom: 10px;
+        transition: background-color 0.3s ease;
+        border-radius: 5px;
+    }
+
+        .sidebar .nav-link i {
+            margin-right: 15px;
+            font-size: 20px;
+            color: white;
+        }
+
+        .sidebar .nav-link:hover,
+        .sidebar .nav-link.active {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .sidebar .nav-link.active {
+            background-color: #0056b3;
+        }
+
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+}
+
+    .content header {
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+}
+
+.search-bar {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: auto;
+    white-space: nowrap;
+}
+
+
+.upload-btn {
+    background-color: #787878;
+    color: white;
+}
+
+    .upload-btn:hover {
+        background-color: #45a049;
+    }
+
+.favorite-btn {
+    background-color: #FFC107;
+    color: white;
+}
+
+    .favorite-btn:hover {
+        background-color: #ffb300;
+    }
+
+.recent-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+    .recent-btn:hover {
+        background-color: #1e88e5;
+    }
+
+
+.upload-section {
+    background-color: #fff;
+    padding: 40px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .upload-section h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+.file-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.file-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.file-name {
+    font-size: 16px;
+    color: #333;
+}
+
+.delete-btn {
+    background-color: #FF6347;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+}
+
+    .delete-btn:hover {
+        background-color: #e55347;
+    }
+
+@media (max-width: 768px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
+    .header-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-bar {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    button {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .file-item {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}
+
+/*
+    CARDS
+*/
+

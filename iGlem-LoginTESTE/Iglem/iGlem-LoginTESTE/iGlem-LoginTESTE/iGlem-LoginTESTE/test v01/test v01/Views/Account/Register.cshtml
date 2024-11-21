@@ -1,0 +1,45 @@
+﻿@model test_v01.Repository.Models.Usuario
+
+@{
+    ViewData["Title"] = "Cadastro";
+}
+<link rel="stylesheet" href="~/front/acesso.css" />
+<style>
+
+
+
+    .navbar {
+        display: none;
+    }
+
+</style>
+
+<div class="container">
+    <div class="sign-up-box">
+        <div class="sign-up-header">
+            <header>@ViewData["Title"]</header>
+        </div>
+        <form method="post">
+            <div class="input-box">
+
+                <input type="text" name="Nomeusuario" class="input-field" id="Nomeusuario" required placeholder="Digite seu nome" />
+            </div>
+            <div class="input-box">
+
+                <input type="email" name="Emailusuario" class="input-field" id="Emailusuario" required placeholder="Digite seu email" />
+            </div>
+            <div class="input-box">
+
+                <input type="password" name="Senhausuario" class="input-field" id="Senhausuario" required placeholder="Digite sua senha" />
+            </div>
+
+            <div class="input-submit">
+                <button type="submit" class="submit-btn">Cadastrar</button>
+            </div>
+        </form>
+
+        <div class="sign-up-link">
+            <p>Já tem conta? <a href="/Account/login">Entrar</a></p>
+        </div>
+    </div>
+</div>

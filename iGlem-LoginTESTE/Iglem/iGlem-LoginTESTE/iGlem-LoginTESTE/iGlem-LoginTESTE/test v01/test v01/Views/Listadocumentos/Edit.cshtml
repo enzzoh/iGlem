@@ -1,0 +1,120 @@
+﻿@model test_v01.Repository.Models.Documento
+
+@{
+    ViewData["Title"] = "Editar Documento";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Documentoid" />
+    <div class="form-group">
+        <label asp-for="Documentonome"></label>
+        <input asp-for="Documentonome" class="form-control" />
+        <span asp-validation-for="Documentonome" class="text-danger"></span>
+    </div>
+    <div hidden>
+        <label>Caminho do Documento: @Model.Caminhodocumento</label>
+        <p>@Model.Caminhodocumento</p>
+    </div>
+    <div>
+        <input type="submit" value="Salvar" class="btn btn-primary" />
+    </div>
+</form>
+<style>
+
+    .sidebar{
+
+
+        display:none;
+    }
+    /* Centralização vertical e horizontal */
+    body {
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    /* Título */
+    h1 {
+        color: #343a40;
+        font-size: 1.75rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Formulário */
+    form {
+        max-width: 600px;
+        width: 100%;
+        padding: 2rem;
+        background-color: #ffffff;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Campos do formulário */
+    .form-group {
+        margin-bottom: 1.25rem;
+    }
+
+        .form-group label {
+            font-weight: bold;
+            color: #495057;
+        }
+
+        .form-group input {
+            padding: 0.5rem;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+            .form-group input:focus {
+                outline: none;
+                border-color: #80bdff;
+                box-shadow: 0 0 5px rgba(128, 189, 255, 0.3);
+            }
+
+    /* Mensagem de erro */
+    .text-danger {
+        font-size: 0.875rem;
+        color: #dc3545;
+    }
+
+    /* Botão de submissão */
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        color: #ffffff;
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 100%;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    /* Ocultar a sidebar */
+    .sidebar {
+        display: none;
+    }
+
+    /* Caminho do Documento */
+    div[hidden] {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 0.875rem;
+        color: #6c757d;
+    }
+
+</style>

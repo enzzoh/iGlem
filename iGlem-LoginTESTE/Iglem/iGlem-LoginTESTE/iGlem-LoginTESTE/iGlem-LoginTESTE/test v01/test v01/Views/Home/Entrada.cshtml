@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+
+    <title>Tela Inicial</title>
+</head>
+
+<body>
+    <div class="buttons-top">
+
+        <a asp-action="Login" asp-controller="Account" class="button-top">Entrar</a>
+        <a asp-action="Register" asp-controller="Account" class="button-top">Criar Conta</a>
+    </div>
+</body>
+
+</html>
+<style>
+
+    .navbar{
+        display:none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("/imgtela.png");
+    }
+
+    .title-container {
+        position: relative;
+        text-align: center;
+        height: 100vh;
+    }
+
+    .buttons-top {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        gap: 10px;
+        z-index: 10;
+    }
+
+    .button-top {
+        background-color: #667C4D;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        text-align: center;
+    }
+
+        .button-top:hover {
+            background-color: #667C4D;
+        }</style>

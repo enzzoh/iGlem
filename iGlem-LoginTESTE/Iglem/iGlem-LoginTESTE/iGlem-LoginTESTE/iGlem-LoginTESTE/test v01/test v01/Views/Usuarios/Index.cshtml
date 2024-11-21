@@ -1,0 +1,69 @@
+﻿@model IEnumerable<test_v01.Repository.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+    <a asp-controller="Documentos" asp-action="index" class="btn btn-primary">Docs</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Idusuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Emailusuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Senhausuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Recmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nomeusuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefoneusuario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Idusuario)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Emailusuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Senhausuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Recmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nomeusuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefoneusuario)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Idusuario" class="btn btn-success">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Idusuario" class="btn btn-warning">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Idusuario" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<form asp-controller="Account" asp-action="Logout" method="post">
+    <button type="submit" class="btn btn-link">Logout</button>
+</form>

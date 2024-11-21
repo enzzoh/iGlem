@@ -1,0 +1,623 @@
+﻿@{
+    ViewData["Title"] = "Suporte";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/front/faqs.css/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>FAQ</title>
+</head>
+<style>
+
+    body {
+        margin-top: 30px;
+        background-color: #eee;
+    }
+
+
+
+    .faq-nav {
+        flex-direction: column;
+        margin: 0 0 32px;
+        border-radius: 2px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+        .nav-link
+
+    {
+        position: relative;
+        display: block;
+        margin: 0;
+        padding: 13px 16px;
+        background-color: #fff;
+        border: 0;
+        border-bottom: 1px solid #ddd;
+        border-radius: 0;
+        color: #616161;
+        transition: background-color .2s ease;
+        &:hover
+
+    {
+        background-color: #f6f6f6;
+    }
+
+    &.active {
+        background-color: #f6f6f6;
+        font-weight: 700;
+        color: rgba(0,0,0,.87);
+    }
+
+    &:last-of-type {
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom: 0;
+    }
+
+    i.mdi {
+        margin-right: 5px;
+        font-size: 18px;
+        position: relative;
+    }
+
+    }
+    }
+
+
+    .tab-content {
+        box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+        .card
+
+    {
+        border-radius: 0;
+    }
+
+    .card-header {
+        padding: 15px 16px;
+        border-radius: 0;
+        background-color: #f6f6f6;
+        h5
+
+    {
+        margin: 0;
+        button
+
+    {
+        display: block;
+        width: 100%;
+        padding: 0;
+        border: 0;
+        font-weight: 700;
+        color: rgba(0,0,0,.87);
+        text-align: left;
+        white-space: normal;
+        &:hover, &:focus, &:active, &:hover:active
+
+    {
+        text-decoration: none;
+    }
+
+    }
+    }
+    }
+
+    .card-body {
+        p
+
+    {
+        color: #616161;
+        &:last-of-type
+
+    {
+        margin: 0;
+    }
+
+    }
+    }
+    }
+
+
+    .accordion {
+        > .card
+
+    {
+        &:not(:first-child)
+
+    {
+        border-top: 0;
+    }
+
+    }
+    }
+
+    .collapse.show {
+        .card-body
+
+    {
+        border-bottom: 1px solid rgba(0,0,0,.125);
+    }
+
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .sidebar {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        background-color: #667C4D;
+        padding-top: 20px;
+    }
+
+        .sidebar a {
+            padding: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+            .sidebar a:hover {
+                background-color: #ddd;
+            }
+
+    .content {
+        margin-left: 250px;
+        padding: 20px;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+
+    .search-container {
+        position: relative;
+        flex-grow: 1;
+        margin-right: 20px;
+    }
+
+        .search-container input {
+            padding-left: 40px;
+            width: 100%;
+        }
+
+        .search-container .search-icon, .search-container .clear-icon {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 18px;
+            color: #6c757d;
+            cursor: pointer;
+        }
+
+        .search-container .search-icon {
+            left: 10px;
+        }
+
+        .search-container .clear-icon {
+            right: 10px;
+        }
+
+        .sidebar{
+            color: #fff;
+        }
+    .button-group {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .file-list {
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+
+
+    <div class="sidebar">
+        <h3 class="text-center">iGlem</h3>
+        <a href="/Listadocumentos/HomeList">Início</a>
+        <a href="/Home/Notificacoes">Notificações</a>
+        <a href="/Home/Usuario">Perfil</a>
+        <a href="/Home/Suporte">Suporte</a>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="nav nav-pills faq-nav" id="faq-tabs" role="tablist" aria-orientation="vertical">
+                    <a href="#tab1" class="nav-link active" data-toggle="pill" role="tab" aria-controls="tab1" aria-selected="true">
+                        <i class="mdi mdi-help-circle"></i> Pesquisa e Navegação de Documentos
+                    </a>
+                    <a href="#tab2" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab2" aria-selected="false">
+                        <i class="mdi mdi-account"></i> Busca Avançada e Personalização
+                    </a>
+                    <a href="#tab3" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab3" aria-selected="false">
+                        <i class="mdi mdi-account-settings"></i>  Conta e Acesso 
+                    </a>
+                    <a href="#tab4" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab4" aria-selected="false">
+                        <i class="mdi mdi-heart"></i> Armazenamento e Histórico
+                    </a>
+                    <a href="#tab5" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab5" aria-selected="false">
+                        <i class="mdi mdi-coin"></i> Segurança e Backup
+                    </a>
+                    <a href="#tab6" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab6" aria-selected="false">
+                        <i class="mdi mdi-help"></i> Favoritos e Histórico
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="tab-content" id="faq-tab-content">
+                    <div class="tab-pane show active" id="tab1" role="tabpanel" aria-labelledby="tab1">
+                        <div class="accordion" id="accordion-tab-1">
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-1-heading-1">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-1" aria-expanded="false" aria-controls="accordion-tab-1-content-1">Como posso encontrar um documento específico no site?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse show" id="accordion-tab-1-content-1" aria-labelledby="accordion-tab-1-heading-1" data-parent="#accordion-tab-1">
+                                    <div class="card-body">
+                                        <p>
+                                            Para encontrar um documento específico, utilize a barra de pesquisa na página inicial do site. Digite palavras-chave relacionadas ao documento, como o título, autor ou assunto. Se souber o título exato, digite-o diretamente. Você também pode usar filtros para refinar os resultados de acordo com o tipo de documento, data ou autor.
+
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-1-heading-2">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-2" aria-expanded="false" aria-controls="accordion-tab-1-content-2">Como posso filtrar os resultados para encontrar o que preciso?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-1-content-2" aria-labelledby="accordion-tab-1-heading-2" data-parent="#accordion-tab-1">
+                                    <div class="card-body">
+                                        <p>Após realizar uma busca, utilize os filtros disponíveis na página de resultados. Você pode refinar sua busca por data, tipo de documento (artigo, tese, relatório), autor ou outras categorias específicas. Normalmente, os filtros estão localizados na barra lateral ou no topo da página.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-1-heading-3">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-3" aria-expanded="false" aria-controls="accordion-tab-1-content-3">Como posso buscar documentos por autor?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-1-content-3" aria-labelledby="accordion-tab-1-heading-3" data-parent="#accordion-tab-1">
+                                    <div class="card-body">
+                                        <p>
+                                            Para buscar documentos por autor, insira o nome do autor na barra de pesquisa do site. Você pode usar aspas para procurar o nome completo exato, como “João Silva”. O sistema também oferece um filtro específico para pesquisar por autor após realizar a busca.
+
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-1-heading-4">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-4" aria-expanded="false" aria-controls="accordion-tab-1-content-4">Como funciona a navegação entre os documentos encontrados?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-1-content-4" aria-labelledby="accordion-tab-1-heading-4" data-parent="#accordion-tab-1">
+                                    <div class="card-body">
+                                        <p>Após a busca, você pode navegar rapidamente entre os documentos encontrados utilizando uma interface intuitiva. Isso permite que você visualize rapidamente os documentos que atendem aos seus critérios de pesquisa e acesse o conteúdo de maneira prática.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab2" role="tabpanel" aria-labelledby="tab2">
+                        <div class="accordion" id="accordion-tab-2">
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-2-heading-1">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-1" aria-expanded="false" aria-controls="accordion-tab-2-content-1">Posso buscar por palavras-chave em documentos em diferentes formatos (PDF, DOC, etc.)?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse show" id="accordion-tab-2-content-1" aria-labelledby="accordion-tab-2-heading-1" data-parent="#accordion-tab-2">
+                                    <div class="card-body">
+                                        <p>Sim, nosso sistema de busca é compatível com diversos formatos de documentos, incluindo PDF, DOC, DOCX, TXT e outros. Você pode buscar em todos os documentos armazenados, independentemente do formato.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-2-heading-2">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-2" aria-expanded="false" aria-controls="accordion-tab-2-content-2">Existe um limite de caracteres nas palavras-chave que posso usar?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-2-content-2" aria-labelledby="accordion-tab-2-heading-2" data-parent="#accordion-tab-2">
+                                    <div class="card-body">
+                                        <p>Não há um limite fixo para o número de caracteres nas palavras-chave, mas recomendamos o uso de termos específicos e relevantes para melhorar a precisão da busca. Para buscas mais complexas, você pode usar frases completas ou operadores booleanos.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-2-heading-3">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-3" aria-expanded="false" aria-controls="accordion-tab-2-content-3">Como posso filtrar os resultados de busca para encontrar o que preciso mais rápido?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-2-content-3" aria-labelledby="accordion-tab-2-heading-3" data-parent="#accordion-tab-2">
+                                    <div class="card-body">
+                                        <p>Após realizar uma busca, você pode aplicar filtros para restringir os resultados com base em critérios como tipo de documento, data de criação ou palavras-chave específicas. Isso ajuda a tornar a busca mais eficiente e a encontrar o que você precisa de forma mais rápida.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-2-heading-4">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-4" aria-expanded="false" aria-controls="accordion-tab-2-content-4">Como o sistema encontra as informações rapidamente dentro dos documentos?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-2-content-4" aria-labelledby="accordion-tab-2-heading-4" data-parent="#accordion-tab-2">
+                                    <div class="card-body">
+                                        <p>O sistema utiliza um algoritmo avançado de indexação para catalogar o conteúdo dos documentos. Ao procurar palavras-chave, ele rapidamente localiza o conteúdo relevante, destacando as palavras encontradas e mostrando a localização exata (página e parágrafo).</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab3" role="tabpanel" aria-labelledby="tab3">
+                        <div class="accordion" id="accordion-tab-3">
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-3-heading-1">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-1" aria-expanded="false" aria-controls="accordion-tab-3-content-1">Como faço para criar uma conta?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse show" id="accordion-tab-3-content-1" aria-labelledby="accordion-tab-3-heading-1" data-parent="#accordion-tab-3">
+                                    <div class="card-body">
+                                        <p>Você pode criar uma conta clicando no botão "Cadastrar" ou "Criar Conta" na página inicial. Preencha as informações solicitadas, como nome, e-mail e senha, e siga as instruções para completar o cadastro.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-3-heading-2">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-2" aria-expanded="false" aria-controls="accordion-tab-3-content-2">Esqueci minha senha, o que devo fazer?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-3-content-2" aria-labelledby="accordion-tab-3-heading-2" data-parent="#accordion-tab-3">
+                                    <div class="card-body">
+                                        <p>Se você esqueceu sua senha, clique na opção "Esqueci minha senha" na tela de login. Insira o e-mail associado à sua conta e enviaremos um link para redefinir sua senha.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-3-heading-3">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-3" aria-expanded="false" aria-controls="accordion-tab-3-content-3">Como posso alterar as configurações de notificação?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-3-content-3" aria-labelledby="accordion-tab-3-heading-3" data-parent="#accordion-tab-3">
+                                    <div class="card-body">
+                                        <p>
+                                            Para alterar suas configurações de notificação, acesse a seção "Configurações de Conta" ou "Notificações", onde você pode ativar ou desativar alertas por e-mail ou no aplicativo, bem como personalizar o tipo de notificação que deseja receber.
+
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-3-heading-4">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-4" aria-expanded="false" aria-controls="accordion-tab-3-content-4">Como posso configurar minha conta para receber atualizações sobre novos documentos em minha área de interesse?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-3-content-4" aria-labelledby="accordion-tab-3-heading-4" data-parent="#accordion-tab-3">
+                                    <div class="card-body">
+                                        <p>Acesse as configurações da sua conta e procure por opções de “Notificações”. Lá, você pode configurar atualizações sobre novos documentos relacionados aos seus interesses, como palavras-chave, autor ou área de pesquisa.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab4" role="tabpanel" aria-labelledby="tab4">
+                        <div class="accordion" id="accordion-tab-4">
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-4-heading-1">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-4-content-1" aria-expanded="false" aria-controls="accordion-tab-4-content-1">Como posso acessar o histórico de minhas pesquisas anteriores no site?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse show" id="accordion-tab-4-content-1" aria-labelledby="accordion-tab-4-heading-1" data-parent="#accordion-tab-4">
+                                    <div class="card-body">
+                                        <p>Para acessar o histórico de suas pesquisas anteriores, o site salva suas pesquisas automaticamente e permite que você acesse um histórico de pesquisas realizadas anteriormente. Isso pode ser feito diretamente no painel de usuário ou na seção de pesquisa. </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-4-heading-2">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-4-content-2" aria-expanded="false" aria-controls="accordion-tab-4-content-2">O sistema armazena as buscas feitas pelos usuários?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-4-content-2" aria-labelledby="accordion-tab-4-heading-2" data-parent="#accordion-tab-4">
+                                    <div class="card-body">
+                                        <p>Sim, o sistema pode armazenar um histórico de buscas para facilitar futuras consultas. Você pode acessar suas buscas anteriores diretamente do painel de usuário ou configurar para não salvar esse histórico, caso prefira manter sua privacidade.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-4-heading-3">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-4-content-3" aria-expanded="false" aria-controls="accordion-tab-4-content-3">Existe alguma forma de organizar ou agrupar os resultados da busca?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-4-content-3" aria-labelledby="accordion-tab-4-heading-3" data-parent="#accordion-tab-4">
+                                    <div class="card-body">
+                                        <p>Sim, você pode organizar os resultados de busca por relevância, data, autor ou tipo de documento. Isso permite que você veja os resultados mais pertinentes primeiro ou agrupe os documentos de maneira que seja mais útil para sua pesquisa.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-4-heading-4">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-4-content-4" aria-expanded="false" aria-controls="accordion-tab-4-content-4">O que são os "resultados recentes" no sistema de busca?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-4-content-4" aria-labelledby="accordion-tab-4-heading-4" data-parent="#accordion-tab-4">
+                                    <div class="card-body">
+                                        <p>Os resultados recentes são documentos ou pesquisas que você visualizou ou buscou recentemente. O sistema mantém um histórico dos itens que você acessou para que você possa retornar facilmente a esses documentos sem precisar refazer a pesquisa.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab5" role="tabpanel" aria-labelledby="tab5">
+                        <div class="accordion" id="accordion-tab-5">
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-5-heading-1">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-5-content-1" aria-expanded="false" aria-controls="accordion-tab-5-content-1">Como posso garantir que meus documentos estejam seguros ao usar o sistema de busca?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse show" id="accordion-tab-5-content-1" aria-labelledby="accordion-tab-5-heading-1" data-parent="#accordion-tab-5">
+                                    <div class="card-body">
+                                        <p>O sistema adota medidas de segurança, como criptografia de dados e autenticação de dois fatores, para garantir que seus documentos e informações de busca estejam seguros.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-5-heading-2">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-5-content-2" aria-expanded="false" aria-controls="accordion-tab-5-content-2">O sistema oferece funcionalidades de backup para garantir que os dados não sejam perdidos?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-5-content-2" aria-labelledby="accordion-tab-5-heading-2" data-parent="#accordion-tab-5">
+                                    <div class="card-body">
+                                        <p>Sim, o sistema oferece opções de backup automático, garantindo que seus documentos e resultados de busca sejam protegidos e armazenados de forma segura. Caso haja uma falha, você pode restaurar documentos ou configurações de busca a partir do backup.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-5-heading-3">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-5-content-3" aria-expanded="false" aria-controls="accordion-tab-5-content-3">Como posso excluir documentos desnecessários ou irrelevantes da pesquisa?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-5-content-3" aria-labelledby="accordion-tab-5-heading-3" data-parent="#accordion-tab-5">
+                                    <div class="card-body">
+                                        <p>Durante a busca, você pode excluir ou ocultar documentos irrelevantes diretamente nos resultados. Além disso, você pode configurar filtros ou preferências para excluir automaticamente tipos de documentos ou conteúdos indesejados.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-5-heading-4">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-5-content-4" aria-expanded="false" aria-controls="accordion-tab-5-content-4">Existe um sistema de alertas para ser notificado sobre novos documentos ou resultados relevantes?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-5-content-4" aria-labelledby="accordion-tab-5-heading-4" data-parent="#accordion-tab-5">
+                                    <div class="card-body">
+                                        <p>Sim, o sistema permite que você crie alertas personalizados para ser notificado sempre que novos documentos relevantes forem carregados ou quando novos resultados corresponderem às palavras-chave ou tópicos de seu interesse.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab6" role="tabpanel" aria-labelledby="tab6">
+                        <div class="accordion" id="accordion-tab-6">
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-6-heading-1">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-6-content-1" aria-expanded="false" aria-controls="accordion-tab-6-content-1">Como posso adicionar documentos aos meus favoritos?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse show" id="accordion-tab-6-content-1" aria-labelledby="accordion-tab-6-heading-1" data-parent="#accordion-tab-6">
+                                    <div class="card-body">
+                                        <p>Você pode adicionar documentos aos seus favoritos clicando no ícone de estrela ou no botão de "Favoritar" próximo ao título do documento ou nos resultados da pesquisa. Isso permitirá que você acesse rapidamente esses documentos mais tarde.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-6-heading-2">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-6-content-2" aria-expanded="false" aria-controls="accordion-tab-6-content-2">Como posso remover documentos dos meus favoritos?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-6-content-2" aria-labelledby="accordion-tab-6-heading-2" data-parent="#accordion-tab-6">
+                                    <div class="card-body">
+                                        <p>Para remover um documento dos seus favoritos, basta clicar novamente no ícone de estrela ou no botão de "Remover dos Favoritos" ao lado do documento. O documento será retirado da sua lista de favoritos, mas continuará disponível em seus resultados de busca.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-6-heading-3">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-6-content-3" aria-expanded="false" aria-controls="accordion-tab-6-content-3">Como posso limpar o histórico de resultados recentes?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-6-content-3" aria-labelledby="accordion-tab-6-heading-3" data-parent="#accordion-tab-6">
+                                    <div class="card-body">
+                                        <p>
+                                            Sim, você pode limpar ou excluir o histórico de resultados recentes nas configurações da sua conta. Isso pode ser útil para manter sua privacidade ou para organizar os resultados sem o excesso de documentos antigos.
+
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-6-heading-4">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-6-content-4" aria-expanded="false" aria-controls="accordion-tab-6-content-4">Como posso excluir documentos desnecessários ou irrelevantes da pesquisa?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-6-content-4" aria-labelledby="accordion-tab-6-heading-4" data-parent="#accordion-tab-6">
+                                    <div class="card-body">
+                                        <p>Durante a busca, você pode excluir ou ocultar documentos irrelevantes diretamente nos resultados. Além disso, você pode configurar filtros ou preferências para excluir automaticamente tipos de documentos ou conteúdos indesejados.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>

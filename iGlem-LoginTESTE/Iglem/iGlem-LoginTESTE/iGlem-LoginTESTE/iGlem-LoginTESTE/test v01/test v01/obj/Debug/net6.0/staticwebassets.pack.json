@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Piteu\\Desktop\\iGlem-LoginTESTE\\iGlem-LoginTESTE (2)\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\test v01\\test v01\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\test v01.bundle.scp.css",
+      "PackagePath": "staticwebassets\\test v01.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Piteu\\Desktop\\iGlem-LoginTESTE\\iGlem-LoginTESTE (2)\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\test v01\\test v01\\wwwroot\\Icons\\R.png",
+      "PackagePath": "staticwebassets\\Icons\\R.png"
+    },
+    {
+      "Id": "C:\\Users\\Piteu\\Desktop\\iGlem-LoginTESTE\\iGlem-LoginTESTE (2)\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\test v01\\test v01\\wwwroot\\Icons\\excel-logo-0.png",
+      "PackagePath": "staticwebassets\\Icons\\excel-logo-0.png"
+    },
+    {
+      "Id": "C:\\Users\\Piteu\\Desktop\\iGlem-LoginTESTE\\iGlem-LoginTESTE (2)\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\test v01\\test v01\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\Piteu\\Desktop\\iGlem-LoginTESTE\\iGlem-LoginTESTE (2)\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\test v01\\test v01\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Piteu\\Desktop\\iGlem-LoginTESTE\\iGlem-LoginTESTE (2)\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\test v01\\test v01\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Piteu\\Desktop\\iGlem-LoginTESTE\\iGlem-LoginTESTE (2)\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\test v01\\test v01\\wwwroot\\front\\acesso.css",
+      "PackagePath": "staticwebassets\\front\\acesso.css"
+    },
+    {
+      "Id": "C:\\Users\\Piteu\\Desktop\\iGlem-LoginTESTE\\iGlem-LoginTESTE (2)\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\test v01\\test v01\\wwwroot\\front\\faqs.css",
+      "PackagePath": "staticwebassets\\front\\faqs.css"
+    },
+    {
+      "Id": "C:\\Users\\Piteu\\Desktop\\iGlem-LoginTESTE\\iGlem-LoginTESTE (2)\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\test v01\\test v01\\wwwroot\\front\\homelist.css",
+      "PackagePath": "staticwebassets\\front\\homelist.css"
+    },
+    {
+      "Id": "C:\\Users\\Piteu\\Desktop\\iGlem-LoginTESTE\\iGlem-LoginTESTE (2)\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\test v01\\test v01\\wwwroot\\front\\usuario.css",
+      "PackagePath": "staticwebassets\\front\\usuario.css"
+    },
+    {
+      "Id": "C:\\Users\\Piteu\\Desktop\\iGlem-LoginTESTE\\iGlem-LoginTESTE (2)\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\test v01\\test v01\\wwwroot\\imgtela.png",
+      "PackagePath": "staticwebassets\\imgtela.png"
+    },
+    {
+      "Id": "C:\\Users\\Piteu\\Desktop\\iGlem-LoginTESTE\\iGlem-LoginTESTE (2)\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\test v01\\test v01\\wwwroot\\js\\navbar.js",
+      "PackagePath": "staticwebassets\\js\\navbar.js"
+    },
+    {
+      "Id": "C:\\Users\\Piteu\\Desktop\\iGlem-LoginTESTE\\iGlem-LoginTESTE (2)\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\test v01\\test v01\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Piteu\\Desktop\\iGlem-LoginTESTE\\iGlem-LoginTESTE (2)\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\iGlem-LoginTESTE\\test v01\\test v01\\wwwroot\\js\\suporte.js",
+      "PackagePath": "staticwebassets\\js\\suporte.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.test v01.props",
+      "PackagePath": "build\\test v01.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.test v01.props",
+      "PackagePath": "buildMultiTargeting\\test v01.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.test v01.props",
+      "PackagePath": "buildTransitive\\test v01.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.test v01.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
